@@ -3,3 +3,25 @@ html {
 }
 
 /* Your CSS below here */
+
+body p {
+  width: 200px;
+  margin: 10rem auto;
+  line-height: 3;
+  font-size: 1.1rem;
+  text-align: center;
+  color: #b0b0b0;
+  text-shadow: 1px 1px 1px black;
+  border-radius: 10px;
+  border: 1px solid #990000;
+  background-color: red;
+  background-image: linear-gradient(to top left, rgb(0,0,0,0.2), rgb(0,0,0,0.2) 30%, rgb(0,0,0,0));
+  box-shadow: inset 2px 2px 3px rgb(255, 255, 255,0.6),
+              inset -2px -2px 3px rgb(0,0,0,0.6),
+              2px 2px 5px black;
+}
+
+body p:hover {
+  color: red;
+  background-color: #b0b0b0;
+}
